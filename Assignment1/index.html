@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="《傲慢与偏见》名著影像解读 · AI 自动化剪辑课程作业展示">
+<title>傲慢与偏见 · 名著影像解读</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.className = "js intro-lock";</script>
+</head>
+<body>
+
+<!-- ===== 进入界面特效：珍珠帷幕 + 珠光标题 + 玫瑰飘升 ===== -->
+<div class="intro" id="intro">
+  <div class="intro-panel intro-left"></div>
+  <div class="intro-panel intro-right"></div>
+
+  <div class="intro-deco" aria-hidden="true">
+    <img src="images/dec-rose-bloom.png" alt="">
+    <img src="images/dec-rose-branch.png" alt="">
+    <img src="images/dec-rose-cluster.png" alt="">
+    <img src="images/dec-rose-bloom.png" alt="">
+  </div>
+
+  <div class="intro-inner">
+    <p class="intro-eyebrow">A Novel Film Interpretation</p>
+    <h1 class="intro-title">傲慢与偏见</h1>
+    <div class="intro-rule" aria-hidden="true"><i></i></div>
+    <p class="intro-sub">「傲慢让别人无法来爱我，偏见让我无法去爱别人」</p>
+    <div class="intro-bar" aria-hidden="true"><span></span></div>
+    <p class="intro-hint">点击任意处进入</p>
+  </div>
+</div>
+
+<!-- ===== 底层：低饱和粉绿复古油画背景（固定 + 视差浮动） ===== -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-parallax"><div class="bg-image"></div></div>
+  <div class="bg-veil"></div>
+</div>
+
+<!-- ===== 装饰层：随机散落的珠光玫瑰 ===== -->
+<div class="rose-field" id="roseField" aria-hidden="true"></div>
+
+<!-- ===== 内容层 ===== -->
+<main class="page">
+
+  <!-- 顶部标题区 -->
+  <header class="hero reveal" id="hero">
+    <p class="hero-eyebrow">A&nbsp;&nbsp;Novel&nbsp;&nbsp;Film&nbsp;&nbsp;Interpretation</p>
+    <h1 class="hero-title">《傲慢与偏见》</h1>
+    <p class="hero-sub"><span>「傲慢让别人无法来爱我，</span><span>偏见让我无法去爱别人」</span></p>
+    <p class="hero-en">Pride&nbsp;&amp;&nbsp;Prejudice</p>
+    <div class="hero-rule" aria-hidden="true"><i></i></div>
+  </header>
+
+  <!-- 主展示区：完整成品讲解主视频 -->
+  <section class="film reveal">
+    <div class="film-card">
+      <div class="film-head">
+        <span class="film-tag">完整成品讲解</span>
+        <h2 class="film-title">全片影像解读 · 完整版</h2>
+      </div>
+      <video class="film-video" src="mp4/main.mp4" poster="images/01_封面开场.jpg" controls preload="metadata" playsinline>
+        您的浏览器不支持 HTML5 视频播放，请使用 Chrome / Edge 打开本页面。
+      </video>
+      <p class="film-note">共 8 幕叙事 · 全长 01:42</p>
+    </div>
+  </section>
+
+  <!-- 8 幕叙事卡片 -->
+  <section class="acts" id="acts">
+
+    <!-- 第 1 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 1 幕</span>
+        <h3 class="act-name">开篇引入</h3>
+        <span class="act-en">The Opening</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/01_封面开场.jpg" alt="第1幕 开篇引入 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/01_封面开场.mp4" poster="images/01_封面开场.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第1幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">世人皆道，富庶单身男子必渴求良缘。</p>
+            <p class="line">而奥斯汀写下的，从来不止爱情，是傲慢隔绝爱意，偏见蒙蔽真心的人间修行。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 2 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 2 幕</span>
+        <h3 class="act-name">初遇结隙</h3>
+        <span class="act-en">First Impressions</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/02_初遇的误会.jpg" alt="第2幕 初遇结隙 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/02_初遇的误会.mp4" poster="images/02_初遇的误会.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第2幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">乡村舞会上，傲慢的达西一句轻评，轻视了伊丽莎白的容貌。</p>
+            <p class="line">一句无心傲慢，在少女心底，埋下了根深蒂固的偏见。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 3 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 3 幕</span>
+        <h3 class="act-name">成见渐深</h3>
+        <span class="act-en">Prejudice Deepens</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/03_偏见的加深.jpg" alt="第3幕 成见渐深 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/03_偏见的加深.mp4" poster="images/03_偏见的加深.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第3幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">伊丽莎白听信韦翰的谗言，认为达西自私，破坏他人幸福。</p>
+            <p class="line">她固守着自己的判断，把所有的误会与离别，都归咎于达西的傲慢。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 4 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 4 幕</span>
+        <h3 class="act-name">暴雨告白</h3>
+        <span class="act-en">A Proposal in the Rain</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/04_暴雨中的告白.jpg" alt="第4幕 暴雨告白 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/04_暴雨中的告白.mp4" poster="images/04_暴雨中的告白.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第4幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">压抑不住心动的达西冒雨求婚，却换来伊丽莎白激烈的指责与回绝。</p>
+            <p class="line">一封长信揭开全部真相，她幡然醒悟，原来一直狭隘偏执、错怪良人。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 5 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 5 幕</span>
+        <h3 class="act-name">庄园重逢</h3>
+        <span class="act-en">Reunion at Pemberley</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/05_彭伯利的重逢.jpg" alt="第5幕 庄园重逢 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/05_彭伯利的重逢.mp4" poster="images/05_彭伯利的重逢.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第5幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">伊丽莎白造访彭伯利庄园，才第一次看见达西温柔善良的本心。</p>
+            <p class="line">再次相见时，他谦逊温和，彬彬有礼，让伊丽莎白彻底放下了往日的敌意。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 6 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 6 幕</span>
+        <h3 class="act-name">危难托心</h3>
+        <span class="act-en">The Heart Revealed</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/06_危机中的真心.jpg" alt="第6幕 危难托心 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/06_危机中的真心.mp4" poster="images/06_危机中的真心.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第6幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">小妹私奔酿成家族大祸，所有人束手无策、深陷绝境。</p>
+            <p class="line">唯有达西匿名出手、倾尽所有，默默替她守住了全家的体面与尊严。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 7 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 7 幕</span>
+        <h3 class="act-name">双向圆满</h3>
+        <span class="act-en">Mutual Devotion</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/07_圆满与升华.jpg" alt="第7幕 双向圆满 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/07_圆满与升华.mp4" poster="images/07_圆满与升华.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第7幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">面对门第压迫，伊丽莎白坚守自我、勇敢捍卫自己的心意。</p>
+            <p class="line">褪去傲慢与偏见的两人双向奔赴，误会散尽，终得圆满相守。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- 第 8 幕 -->
+    <article class="act-card reveal">
+      <header class="act-head">
+        <span class="act-no">第 8 幕</span>
+        <h3 class="act-name">主题收尾</h3>
+        <span class="act-en">The Truth of Love</span>
+      </header>
+      <div class="act-grid">
+        <figure class="act-art">
+          <img src="images/08_结尾收束.jpg" alt="第8幕 主题收尾 · 基础原画" loading="lazy">
+          <figcaption>基础原画</figcaption>
+        </figure>
+        <div class="act-side">
+          <div class="act-media">
+            <video class="clip" src="mp4/08_结尾收束.mp4" poster="images/08_结尾收束.jpg" preload="metadata" playsinline></video>
+            <button class="clip-play" type="button" aria-label="播放第8幕动态短视频">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+            </button>
+            <span class="media-tag">动态短视频</span>
+          </div>
+          <div class="act-script">
+            <span class="script-tag">字幕文案</span>
+            <p class="line">人人皆有傲慢，用骄傲筑起围墙；人人皆有偏见，用主观困住目光。</p>
+            <p class="line">真正的爱，是让人学会低头、学会看清，学会真诚地拥抱彼此与世界。</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <footer class="foot reveal">
+    <div class="foot-rule" aria-hidden="true"><i></i></div>
+    <p>《傲慢与偏见》名著影像解读 · AI 自动化剪辑课程作业</p>
+  </footer>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
